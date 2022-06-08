@@ -1,0 +1,311 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.style_red {
+    color: #c81623;
+}
+.style_bgc_red {
+    background-color: #b1191a;
+}
+
+/* shortcut */
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+
+.swl {
+    float: left;
+}
+
+.swl ul li {
+    float: left;
+}
+
+.swr {
+    float: right;
+}
+
+.swr a {
+    display: block;
+    float: left;;
+    padding: 0 13px;
+    border-right: 1px solid #666666;
+    /* background-color: yellow; */
+}
+
+.swr a:last-child {
+    border: 0;
+}
+
+.swr .ricon::after {
+    content: '\e665';
+    font-family: 'iconfont';
+    margin-left: 8px;
+
+}
+
+/* header */
+.header {
+    position: relative;
+    height: 98px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 190px;
+    height: 60px;
+    /* background-color: yellow; */
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 60px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    width: 538px;
+    height: 36px;
+    line-height: 36px;
+    /* background-color: green; */
+}
+.search input {
+    float: left;
+    padding-left: 12px;
+    width: 458px;
+    height: 36px;
+    /* background-color: skyblue; */
+    border: 2px solid #b1191a;
+
+}
+.search input::placeholder {
+    font-size: 14px;
+    color: #666666;
+}
+.search button {
+    float: left;
+    width: 80px;
+    height: 36px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+}
+.hotwords {
+    position: absolute;
+    top: 61px;
+    left: 350px;
+    width: 538px;
+    height: 28px;
+    line-height: 28px;
+    /* background-color: aqua; */
+    font-size: 12px;
+}
+.hotwords a {
+    display: block;
+    float: left;
+    padding:0 12px;
+    /* background-color: yellow; */
+}
+.shopcar {
+    position: absolute;
+    top: 25px;
+    left: 940px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f7f7f7;
+    border:1px solif #dfdfdf;
+
+}
+.shopcar::before {
+    content: '\e881';
+    font-family: 'iconfont';
+    margin-right: 7px;
+    color: #d84a4a;
+}
+.shopcar::after {
+    content: '\e667';
+    font-family: 'iconfont';
+    margin-left: 14px;
+}
+.snumber {
+    position:absolute;
+    top: -2px;
+    left: 105px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #fefefe;
+    background-color: #e60012;
+    border-radius: 7px;
+    border-bottom-left-radius: 0;
+}
+
+/* nav */
+.nav {
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    border-bottom: 2px solid #b1191a;
+}
+.dropdown {
+    /* position: relative; */
+    float: left;
+    width: 210px;
+    height: 45px;
+    /* text-align: center; */
+    color: #ffffff;
+}
+.dropdown dt {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.dropdown dd {
+    display: none;
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+.dropdown:hover dd {
+    display: block;
+}
+.dropdown dd a {
+    display: block;
+    padding: 0 10px;
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+}
+.dropdown .ricon::after {
+    float: right;
+    content: '\e667';
+    font-family: 'iconfont';
+}
+
+.dropdown a:hover {
+    background-color: #f7f7f7;
+    color: #d56f73;
+}
+
+.navitems {
+    float: right;
+    
+}
+
+.navitems a {
+    padding: 0 35px;
+    color: #333333;
+}
+
+/* foooter */
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+}
+
+.f1 {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+    /* background-color: pink; */
+}
+
+.f1 ul {
+    /* height: 110px; */
+}
+.f1 li {
+    float: left;
+    padding: 30px 40px 0 30px;
+    height: 110px;
+    width: 20%;
+    /* height: 110px; */
+    /* background-color: yellow; */
+}
+
+.f1 h5 {
+    float: left;
+    margin-right: 7px;
+    width: 50px;
+    height: 50px;
+    /* background-color: #fff; */
+}
+
+.f1 ul li:nth-child(-n+5) h5 {
+    background: url(../images/icons.png) no-repeat -252px calc(-4px+2px);
+}
+
+.f1text h4 {
+    font-size: 14px;
+} 
+.f1text p {
+    font-size: 12px;
+}
+.f1 .boxcon {
+    float: left;
+    width: 120px;
+    height: 50px;
+    background-color: green;
+}
+.f2 {
+    height: 190px;    
+    border-bottom: 1px solid #ededed;
+    padding-top: 20px;
+}
+.f2 dl {
+    float: left;
+    width: 190px;
+    height: 190px;
+    /* background-color: red; */
+    padding-left: 50px;
+}
+.f2 dl dt {
+    font-size: 16px;
+    color: #333333;
+}
+.f2 dl dd {
+    font-size:12px ;
+    color: #666666;
+}
+
+.f3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+.contact {
+    padding-top: 20px;
+}
+.f3 .contact a {
+    line-height: 28px;
+    padding: 0 15px;
+    border-right: 1px solid #999999;
+}
+.f3 .contact:last-child {
+    border: 0;
+}
+.f3 .getcontact {
+    line-height: 20px;
+}
+.f3 .copyRight {
+    line-height: 13px;
+}

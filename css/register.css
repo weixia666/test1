@@ -1,0 +1,119 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo  {
+    display: block;
+    width: 172px;
+    /* padding-top: 18px; */
+    /* height: 84px; */
+    line-height: 84px; 
+}
+.logo img {
+    /* line-height: 84px; */
+}
+
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ececec;
+}
+/* .gisterhd {
+    height: 41px;
+    line-height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+} */
+.gisterhd h3 {
+    height: 41px;
+    line-height: 41px;
+    padding: 0 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    /* float: left; */
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    /* margin-left: 5px; */
+}
+.gisterhd div {
+    float: right;
+    font-size: 14px;
+    color: #333;
+}
+.gisterhd div a {
+    color: #c81623;
+}
+.gisterbd {
+    width: 630px;
+    height: 420px;
+    margin: 40px auto 0;
+    /* background-color: yellow; */
+
+}
+.gisterbd input {
+    width: 240px;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #cccc;
+    margin-left: 5px;
+}
+.gisterbd  span {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.gisterbd .safe {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    color: #b3b3b3;
+}
+.gisterbd .safe em {
+    padding: 0 12px;
+    color: #ffffff;
+    background-color: #c81623;
+}
+.gisterbd .xieyi {
+    margin-top:20px;
+    width: 15px;
+    height: 15px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+.gisterbd  .button {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+}
+footer {
+    height: 84px;
+    text-align: center;
+}
+.contact {
+    padding-top: 20px;
+}
+.contact a {
+    line-height: 28px;
+    padding: 0 15px;
+    border-right: 1px solid #999999;
+}
+.contact a:last-child {
+    border: 0;
+}
+.getcontact {
+    line-height: 20px;
+}
+.copyRight {
+    line-height: 13px;
+}
+
+
