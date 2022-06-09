@@ -11,6 +11,11 @@
     height: 455px;
 }
 
+.main .focus:hover img  {
+    /* transform: rotate(20deg); */
+    transform: scale(102%);
+}
+
 .main .news {
     float: right;
     width: 250px;
@@ -580,7 +585,7 @@
 .fengqiang .fbd {
     height: 280px;
     /* background-color: yellow; */
-    
+
 }
 
 .fbox1 {
@@ -623,9 +628,11 @@
     border-right: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
 }
+
 .fbox2 li:nth-child(-n+3) {
     border-top: 1px solid #ededed;
 }
+
 .box2 li a {
     display: block;
 
